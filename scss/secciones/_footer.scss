@@ -1,0 +1,13 @@
+ .zoomFooter {
+     transition: transform .2s;
+
+     &:hover {
+        transform: scale(1.5);
+    }
+}
+
+ 
+ .footer p {
+     color: #F89D13;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }

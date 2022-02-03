@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// VARIABLES
+@import './variables/extend';
+@import './variables/mixin';
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-auto-flow: row;
+    grid-template-areas: 
+      "Header Header Header Header Header"
+      "Main Main Main Main Main"
+      "Footer Footer Footer Footer Footer"; 
+  }
+.header { 
+    grid-area: Header; 
+    
+}
+.main { 
+    grid-area: Main;
+    margin: 10px;
+    min-height: 76vh;
+    
+}
+.footer { 
+    grid-area: Footer;
+    padding:10px;
+    background-color: #1B120F;
+}
+body{
+    background-color: #E6DEDD;
+}
+h1{
+    @include titulo (#8F1D14, 70px,);
+
+}
+h4{
+    font-size: 20px;
+}
+
+
+// SECCIONES
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/equipo';
+@import './secciones/sponsors';
+@import './secciones/quienes';
+@import './secciones/mobile429px';

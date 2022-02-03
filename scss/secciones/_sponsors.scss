@@ -1,0 +1,45 @@
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    @extend %estiloParrafo;
+}
+
+.sponsor1{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+}
+
+
+
+.sponsor2{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.sponsor3{
+    img{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+
+.zoomSponsor {
+    transition: transform .2s;
+
+    &:hover {
+        transform: scale(0.8);
+        background-color: #1B120F;
+    }
+}
