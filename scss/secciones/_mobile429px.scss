@@ -17,7 +17,7 @@
     }
     .main { 
         grid-area: Main;
-        max-width: 208px;
+        
     }
     .noticias img{
         max-width: 310px;
@@ -34,6 +34,11 @@
     .imgQs{
         max-width: 310px;
         max-height: 310px;
+    }
+    .noticiasBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .slider{
         max-width: 1000px;
@@ -53,7 +58,7 @@
             width: auto;
             margin-top: -22px;
             padding: 16px;
-            color: white;
+            color: #F89D13;
             font-weight: bold;
             font-size: 18px;
             transition: 0.6s ease;
@@ -64,8 +69,7 @@
             }
           }
           .next {
-            right: -24vw;
-            border-radius: 3px 0 0 3px;
+            right: 0;
           }
       }
 }

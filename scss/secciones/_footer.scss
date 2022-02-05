@@ -1,4 +1,9 @@
- .zoomFooter {
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zoomFooter {
      transition: transform .2s;
 
      &:hover {

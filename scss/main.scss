@@ -26,7 +26,7 @@
 .main { 
     grid-area: Main;
     margin: 10px;
-    min-height: 76vh;
+    min-height: 77.5vh;
     
 }
 .footer { 
@@ -39,6 +39,7 @@ body{
 }
 h1{
     @include titulo (#8F1D14, 70px,);
+    text-align: center;
 
 }
 h4{
@@ -53,4 +54,5 @@ h4{
 @import './secciones/equipo';
 @import './secciones/sponsors';
 @import './secciones/quienes';
+@import './secciones/contacto';
 @import './secciones/mobile429px';

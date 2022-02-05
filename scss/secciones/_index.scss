@@ -1,8 +1,15 @@
-.noticias img {
-    max-width: 700px;
-    max-height: 700px;
-}
-
 .noticias p {
     @extend %estiloParrafo;
+}
+.noticiasBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 2rem;
+
+}
+.noticias img {
+    max-width: 672px;
+    max-height: 378px;
+
 }

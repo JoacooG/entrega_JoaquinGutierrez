@@ -1,0 +1,9 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fraseContacto{
+    @extend %estiloParrafo;
+    text-align: center;
+}
