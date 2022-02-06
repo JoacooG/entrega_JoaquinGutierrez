@@ -1,0 +1,10 @@
+@media (max-width: 810px) {
+    .main{
+        min-height: 82vh;
+    }
+    .noticiasBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

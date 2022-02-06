@@ -27,7 +27,6 @@
     grid-area: Main;
     margin: 10px;
     min-height: 77.5vh;
-    
 }
 .footer { 
     grid-area: Footer;
@@ -55,4 +54,5 @@ h4{
 @import './secciones/sponsors';
 @import './secciones/quienes';
 @import './secciones/contacto';
+@import './secciones/tablet810px';
 @import './secciones/mobile429px';
